@@ -72,8 +72,15 @@
 			"name": "meta.structure.dictionary.plist",
 			"patterns": [
 				{
+					"include": "#dictionarycontent"
+				}
+			]
+		},
+		"dictionarycontent": {
+			"patterns": [
+				{
 					"comment": "the plist object key",
-					"include": "#objectkey"
+					"include": "#dictionarykey"
 				},
 				{
 					"include": "#comments"
@@ -109,21 +116,46 @@
 				}
 			]
 		},
-		"objectkey": {
+		"dictionarykey": {
+			"name": "string.plist support.type.property-name.plist",
 			"patterns": [
 				{
-					"include": "#string"
+					"include": "#dictionarykeyunquoted"
 				},
 				{
-					"include": "#simplestring"
+					"include": "#dictionarykeyquoted"
 				}
 			]
 		},
-		"simplestring": {
+		"dictionarykeyunquoted": {
+			"match": "[A-Za-z0-9-_#.]+",
+			"name": "string.unquoted.plist support.type.property-name.plist"
+		},
+		"dictionarykeyquoted": {
+			"begin": "\"",
+			"beginCaptures": {
+				"0": {
+					"name": "punctuation.support.type.property-name.begin.plist"
+				}
+			},
+			"end": "\"",
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.support.type.property-name.end.plist"
+				}
+			},
+			"name": "string.quoted.plist support.type.property-name.plist",
+			"patterns": [
+				{
+					"include": "#stringcontent"
+				}
+			]
+		},
+		"stringunquoted": {
 			"match": "[A-Za-z0-9-_#.]+",
 			"name": "string.unquoted.plist"
 		},
-		"string": {
+		"stringquoted": {
 			"begin": "\"",
 			"beginCaptures": {
 				"0": {
@@ -158,10 +190,10 @@
 		"value": {
 			"patterns": [
 				{
-					"include": "#simplestring"
+					"include": "#stringunquoted"
 				},
 				{
-					"include": "#string"
+					"include": "#stringquoted"
 				},
 				{
 					"include": "#array"
