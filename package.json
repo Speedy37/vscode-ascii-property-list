@@ -2,7 +2,7 @@
     "name": "ascii-plist",
     "displayName": "ASCII property list",
     "description": "Language support for ASCII property list",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "speedy37",
     "repository": {
         "type": "git",
