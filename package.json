@@ -19,7 +19,7 @@
             {
                 "id": "plist",
                 "aliases": [
-                    "Property list"
+                    "ASCII Property list"
                 ],
                 "extensions": [
                     ".plist",
@@ -30,7 +30,7 @@
             {
                 "id": "plistex",
                 "aliases": [
-                    "Property list extended"
+                    "ASCII Property list extended"
                 ],
                 "extensions": [],
                 "configuration": "./language-configuration.json"
