@@ -3,6 +3,11 @@
     "displayName": "ASCII property list",
     "description": "Language support for ASCII property list",
     "version": "1.0.0",
+    "publisher": "speedy37",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Speedy37/vscode-ascii-property-list.git"
+    },
     "engines": {
         "vscode": "^1.30.0"
     },
