@@ -39,20 +39,20 @@
 			"begin": "<",
 			"beginCaptures": {
 				"0": {
-					"name": "punctuation.definition.data.begin.plist.extended"
+					"name": "punctuation.definition.data.begin.plist"
 				}
 			},
 			"end": ">",
 			"endCaptures": {
 				"0": {
-					"name": "punctuation.definition.data.end.plist.extended"
+					"name": "punctuation.definition.data.end.plist"
 				}
 			},
-			"name": "constant.numeric.hex.data.plist.extended",
+			"name": "constant.numeric.hex.data.plist",
 			"patterns": [
 				{
 					"match": "[^A-Fa-f0-9 \\t\\n]",
-					"name": "invalid.illegal.invalid-character.plist.extended"
+					"name": "invalid.illegal.invalid-character.plist"
 				}
 			]
 		},
