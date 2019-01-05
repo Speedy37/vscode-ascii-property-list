@@ -2,7 +2,7 @@
 
 Add ASCII property list language support.
 
-Lanugage reference: https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/PropertyLists/OldStylePlists/OldStylePLists.html.
+Language reference: https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/PropertyLists/OldStylePlists/OldStylePLists.html.
 
 Also add support for an extended version of ASCII property list that supports:
 
