@@ -9,3 +9,4 @@
 
 ## v1.0.2
 - Support `/* ... */` comment blocks in non extended syntax
+- Fix `\UXXXX` support in quoted strings
