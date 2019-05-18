@@ -6,7 +6,7 @@ Language reference: https://developer.apple.com/library/archive/documentation/Co
 
 Also add support for an extended version of ASCII property list that supports:
 
- - comments (`/* */` and `//` styles)
+ - `//` style comments
  - array of naturals (`[0, 2]`)
  - custom classes (`@myclassname{ myproperty = "value" ; }`)
  - constants (`YES`, `NO`)

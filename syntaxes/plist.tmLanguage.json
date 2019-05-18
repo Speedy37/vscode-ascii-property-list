@@ -56,6 +56,39 @@
 				}
 			]
 		},
+		"comments": {
+			"patterns": [
+				{
+					"begin": "/\\*\\*(?!/)",
+					"captures": {
+						"0": {
+							"name": "punctuation.definition.comment.plist.extended"
+						}
+					},
+					"end": "\\*/",
+					"name": "comment.block.documentation.plist.extended"
+				},
+				{
+					"begin": "/\\*",
+					"captures": {
+						"0": {
+							"name": "punctuation.definition.comment.plist.extended"
+						}
+					},
+					"end": "\\*/",
+					"name": "comment.block.plist.extended"
+				},
+				{
+					"captures": {
+						"1": {
+							"name": "punctuation.definition.comment.plist.extended"
+						}
+					},
+					"match": "(//).*$\\n?",
+					"name": "comment.line.double-slash.js"
+				}
+			]
+		},
 		"dictionary": {
 			"begin": "\\{",
 			"beginCaptures": {
