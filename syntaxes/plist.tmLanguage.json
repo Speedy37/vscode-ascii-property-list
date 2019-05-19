@@ -62,26 +62,26 @@
 					"begin": "/\\*\\*(?!/)",
 					"captures": {
 						"0": {
-							"name": "punctuation.definition.comment.plist.extended"
+							"name": "punctuation.definition.comment.plist"
 						}
 					},
 					"end": "\\*/",
-					"name": "comment.block.documentation.plist.extended"
+					"name": "comment.block.documentation.plist"
 				},
 				{
 					"begin": "/\\*",
 					"captures": {
 						"0": {
-							"name": "punctuation.definition.comment.plist.extended"
+							"name": "punctuation.definition.comment.plist"
 						}
 					},
 					"end": "\\*/",
-					"name": "comment.block.plist.extended"
+					"name": "comment.block.plist"
 				},
 				{
 					"captures": {
 						"1": {
-							"name": "punctuation.definition.comment.plist.extended"
+							"name": "punctuation.definition.comment.plist"
 						}
 					},
 					"match": "(//).*$\\n?",
