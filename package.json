@@ -1,8 +1,8 @@
 {
     "name": "ascii-plist",
-    "displayName": "ASCII property list",
-    "description": "Language support for ASCII property list",
-    "version": "1.0.2",
+    "displayName": "Old-Style ASCII Property Lists",
+    "description": "Language support for Old-Style ASCII Property Lists",
+    "version": "1.0.3",
     "publisher": "speedy37",
     "repository": {
         "type": "git",
